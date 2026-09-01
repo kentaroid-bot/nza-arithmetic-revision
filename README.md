@@ -18,6 +18,16 @@ Its foundational Local Zero Axiom is:
 > A result of zero within a scoped account is a local state. It is not, by
 > itself, absolute nothingness.
 
+The original notation for this intuition was:
+
+```text
+5 - 5 = 0_local + 5_universe
+```
+
+This says that the selected local account is zero while the same quantity five
+remains at universe scope. It is a scoped conservation statement, not ordinary
+addition of two independent quantities.
+
 Source, destination, quantity, and evidence are required to establish a specific
 transfer path. They are not prerequisites for refusing to equate local zero with
 ontological annihilation.
@@ -66,9 +76,11 @@ print(a - b)             # 2.0_local + infinity_universe
 print(NZA(5) - NZA(5))  # 0.0_local + infinity_universe
 ```
 
-This API demonstrates the earlier local-label representation. Because its
-`total()` method returns infinity by definition, it does not independently test
-or prove conservation. It should not yet be treated as an implementation of the
+This API demonstrates the later v5 local-label representation. The original
+finite notation `0_local + 5_universe` retained the conserved quantity. The
+prototype generalized that universe component to infinity; because its `total()`
+method returns infinity by definition, that implementation does not independently
+test conservation. It should not yet be treated as an implementation of the
 revised NZCM specification.
 
 ## Development

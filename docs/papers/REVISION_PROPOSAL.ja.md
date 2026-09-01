@@ -37,8 +37,12 @@ N-Zero Arithmeticを、完成済みの万能的算術体系として提示する
 
 N-Zeroは次を**Local Zero Axiom（局所ゼロ公理）**として置く。
 
-> `5 - 5 = 0`は、選択された局所Accountがゼロになったことを示す。
+> `5 - 5 = 0_local + 5_universe`は、選択された局所Accountがゼロに
+> なっても、同じ5が宇宙Scopeでは保存されていることを示す。
 > それは絶対的な無を示さない。
+
+これは当時のN-Zeroで用いられた表記である。ここでの`+`は、独立した二つの量を
+通常加算するというより、`local`と`universe`という二つの観測Scopeを併記する。
 
 物理的解釈では、5はその局所関係から離れ、別の状態、場所、変換関係へ参加する。
 現在の観測者がその経路を特定できない場合も、局所ゼロを絶対的消滅の証明には
@@ -72,7 +76,7 @@ Operational Ledgerへ採用するために要求する。Local Zero Axiomを保�
 | 全ての値に`infinity_universe`を付ける | NodeとEnvironmentの有限な明示状態を使う |
 | `total()`が常に∞なので保存される | 状態遷移前後の総量を計算し、不一致を検出する |
 | ゼロと負数は存在しない | 数学的ゼロと負数を認め、存在論的意味と分離する |
-| 5-5は宇宙の別地点への移動である | Local Zero Axiomとして保持する。具体的な移動先の確定だけはsource、destination、quantity、evidenceを要求する |
+| `5 - 5 = 0_local + 5_universe` | Local Zero Axiomの原型として保持する。有限の5をScope間で追跡し、具体的な移動先の確定だけはsource、destination、quantity、evidenceを要求する |
 | 物理学へ適用できる | 現時点では類比。個別領域で予測と反証条件が必要 |
 | 無限総量は自動的に豊穣倫理を導く | 宇宙無限性は仮説として保持し、現在のAccessと局所的希少性を別に測る |
 | Pythonテストが理論を検証する | テストは実装と形式Invariantだけを検査する |

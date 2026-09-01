@@ -21,6 +21,10 @@ NZCM does not deny the mathematical existence or usefulness of zero and
 negative numbers. Its narrower claim is that a local value of zero does not,
 without a boundary and transition record, establish global annihilation.
 
+The model preserves the original finite N-Zero notation
+`5 - 5 = 0_local + 5_universe` while replacing the later constant-infinity
+implementation with explicit, inspectable scopes.
+
 ## 1. Scope
 
 NZCM is suitable for systems in which a quantity, entitlement, obligation, or
@@ -116,6 +120,24 @@ history that produced the state.
 This distinction is the formal counterpart of the N-Zero Local Zero Axiom:
 
 > `x[i] = 0` is a scoped state, not a representation of absolute nothingness.
+
+Historically, this was written:
+
+```text
+5 - 5 = 0_local + 5_universe
+```
+
+The plus sign separates two scopes rather than adding two independent stocks:
+
+```text
+local account after transition = 0
+quantity at universe scope     = 5
+```
+
+When a concrete destination is known, NZCM can refine that statement into an
+explicit transition. For example, starting from `x[local] = 5` and
+`x[environment] = 0`, transfer of five gives `x'[local] = 0` and
+`x'[environment] = 5`, so `T(x') = 5`.
 
 Naming source, destination, quantity, and evidence is required to accept a
 specific transfer into the operational ledger. Failure to identify a destination

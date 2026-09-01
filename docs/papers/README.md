@@ -24,7 +24,8 @@ be promoted into a final boundary of reality without evidence.
 
 N-Zero adopts a strong interpretive starting point:
 
-> `5 - 5 = 0` is zero in a selected local account, not absolute nothingness.
+> `5 - 5 = 0_local + 5_universe` means zero in a selected local account while
+> the same five remains at universe scope; it is not absolute nothingness.
 
 The formal model does not claim that the arithmetic expression itself identifies
 where the five went. Provenance requirements establish a specific transfer;
@@ -75,15 +76,19 @@ Passing a test in one layer does not validate another layer. In particular:
 
 ## Revision From NZA v5
 
-The v5 paper represented every value as `(local_label, infinity_universe)` and
-defined the total as infinity. That construction preserved the intuition but
-made conservation true by definition. It also mixed integer labels, floating
-point implementation, division by zero, physical analogies, and ethical claims.
+The N-Zero lineage contains two related formulations. Its motivating finite
+notation, `5 - 5 = 0_local + 5_universe`, expressed the Local Zero Axiom while
+retaining the conserved quantity. The v5 formalization then represented values
+as `(local_label, infinity_universe)` and defined the total as infinity. That
+generalization preserved the intuition but made conservation true by definition.
+It also mixed integer labels, floating point implementation, division by zero,
+physical analogies, and ethical claims.
 
 This suite changes the formal core as follows:
 
 | v5 formulation | Proposed revision |
 |---|---|
+| `0_local + 5_universe` preserves five across scopes | Keep this finite insight and express each scope as an explicit account |
 | Every value carries a constant infinity component | A state contains explicit local accounts and a declared boundary |
 | `total()` always returns infinity | The total is calculated from the current state |
 | Local subtraction reaches absolute nothingness | The Local Zero Axiom treats zero as scoped, not ontological annihilation |

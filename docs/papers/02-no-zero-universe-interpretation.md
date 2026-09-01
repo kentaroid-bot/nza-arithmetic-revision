@@ -30,15 +30,17 @@ The minimal thesis is:
 
 The Human Steward holds this as an absolute foundational conviction of N-Zero:
 
-> `5 - 5 = 0` describes zero in the selected local account. It does not describe
-> absolute nothingness. In a physical interpretation, the five have left that
-> local relation and participate in another state, location, or transformation,
-> even when the present observer cannot identify the path.
+> `5 - 5 = 0_local + 5_universe` describes zero in the selected local account
+> while the same five remains at universe scope. It does not describe absolute
+> nothingness. In a physical interpretation, the five have left that local
+> relation and participate in another state, location, or transformation, even
+> when the present observer cannot identify the path.
 
 NZUI records this as the **Local Zero Axiom**. It is an adopted starting point of
 the interpretation, not a theorem derived from the arithmetic expression alone.
-The expression `5 - 5` contains no source or destination semantics by itself;
-those belong to a concrete physical or ledger model.
+The historical notation expresses nested observational scopes. It does not by
+itself identify a concrete source, destination, or transformation path; those
+belong to a physical or ledger model.
 
 This thesis does not claim that every lost object survives unchanged. Transfer,
 conversion, decoherence, dissipation, information loss at a selected level, and
