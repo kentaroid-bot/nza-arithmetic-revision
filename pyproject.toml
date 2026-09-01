@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "nza-arithmetic"
 dynamic = ["version"]
-description = "N-Zero Arithmetic (NZA): Mathematical framework distinguishing local labels from infinite universe total. No true zeros or negatives."
+description = "Experimental models distinguishing local zero from global disappearance"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
