@@ -35,6 +35,10 @@ NZCM alone does not establish:
 - that mathematical zero or signed coordinates are unreal;
 - that conservation implies abundance or ethical fairness.
 
+NZCM models every operational state with a finite declared boundary. This does
+not assert that reality ends at that boundary. It separates what the model can
+currently account for from what may exist outside its observation and access.
+
 ## 2. Definitions
 
 ### 2.1 Boundary
@@ -154,6 +158,13 @@ The model reports a discrepancy rather than manufacturing an infinite residual.
 Conservation of one declared quantity does not imply conservation of identity,
 utility, rights, energy, information, or every other quantity.
 
+### Invariant 6: Revisable boundary
+
+The current node set is an operational scope, not a claim to exhaust reality.
+Newly observed nodes and reservoirs may extend the boundary through a recorded
+Revision. Before evidence is available, the model records the outside as unknown
+rather than empty, infinite, or usable.
+
 ## 4. Elementary Results
 
 ### Theorem 1: Internal transfer conservation
@@ -209,6 +220,23 @@ quantity = q
 This is an epistemic state, not evidence that the quantity still exists. A Hold
 preserves the unresolved question without deciding it prematurely.
 
+### Boundary expansion
+
+Discovery or construction of a new reachable reservoir extends the modeled node
+set. A boundary expansion records:
+
+```text
+previous boundary
+new node or reservoir
+evidence of reachability
+access path and controller
+effective time
+```
+
+Potential resources outside the current boundary do not enter the operational
+balance until they are observable and reachable. This keeps exploration open
+without spending hypothetical abundance in the present ledger.
+
 ## 7. Reference Implementation Requirements
 
 A conforming implementation should:
@@ -237,6 +265,10 @@ NZCM is an accounting and transition model. Conservation is conditional on the
 chosen boundary, quantity, measurements, and transition rules. A balanced ledger
 can still contain fraud, coercion, mistaken observations, or unjust ownership.
 Those concerns require independent governance and evidence models.
+
+An expanded resource boundary can also increase concentration when one node
+controls the only access path. NZCM can expose that path and its controller but
+does not by itself prevent monopoly.
 
 ## 9. Central Claim
 

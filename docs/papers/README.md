@@ -18,6 +18,19 @@ The original thesis combined an algebra, a physical interpretation, and ethical
 claims in one document. These drafts separate those layers so that each can be
 reviewed using an appropriate standard of evidence.
 
+The research motivation is not that unseen resources may be counted as if they
+were already available. It is that the present observational boundary should not
+be promoted into a final boundary of reality without evidence.
+
+```text
+Abundance Horizon: do not declare the unknown empty or permanently closed.
+Scarcity Discipline: allocate currently reachable resources as finite.
+```
+
+Multiplanetary expansion is one possible boundary-expansion strategy. It does
+not produce decentralization unless access to transport, energy, communication,
+and settlement can avoid capture by a small set of gateways.
+
 ## Documents
 
 The editorial change is summarized in Japanese in
@@ -49,6 +62,8 @@ Passing a test in one layer does not validate another layer. In particular:
 - a conservation invariant does not prove that the universe is infinite;
 - an ontological interpretation does not entail a political or ethical rule;
 - an ethical preference does not prove a mathematical theorem.
+- a possibly infinite universe does not make resources presently accessible to
+  any node infinite.
 
 ## Revision From NZA v5
 

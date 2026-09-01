@@ -45,7 +45,7 @@ Signal -> Protective action -> Investigation -> Decision -> Appeal
 The signal remains attributable and reviewable, while access to sensitive
 details may be restricted. Preservation must not become automatic punishment.
 
-## 3. Local Scarcity Is Real
+## 3. Abundance Horizon and Scarcity Discipline
 
 An abundance interpretation of the universe does not remove local scarcity.
 Time, care, housing, compute, attention, energy, and safe exit routes may be
@@ -59,6 +59,18 @@ global abundance -> local deprivation is unreal
 
 Governance must measure access, timing, concentration, and substitution, not
 only aggregate supply.
+
+At the same time, a currently scarce topology must not be declared permanently
+closed merely because its known paths are exhausted. NZEG therefore combines:
+
+- **Abundance Horizon:** continue searching for new resources, transformations,
+  habitats, and relationships beyond the current boundary;
+- **Scarcity Discipline:** distribute currently reachable resources without
+  borrowing against unverified future abundance.
+
+Multiplanetary expansion may enlarge the resource and habitat mesh. It advances
+this ethical goal only when launch, transport, communication, and settlement
+rights do not become exclusive gateways controlled by a new central authority.
 
 ## 4. Rights Are Not Balancing Items
 
@@ -114,6 +126,8 @@ NZEG and Aperture share a possible structural connection:
 | A rejected path may remain viable | Fork |
 | Disconnection leaves effects | Protected Exit and recovery obligations |
 | One account must not define the whole | Inter-Mesh review and alternative paths |
+| Current boundary must not become final reality | Boundary Revision and exploration |
+| Expansion may create a new chokepoint | Replaceable gateways and protected exit |
 
 This is an interpretive relationship, not proof that N-Zero validates Aperture
 or that Aperture must adopt N-Zero ontology.
@@ -130,6 +144,9 @@ An N-Zero-informed process should:
 6. make reviewers and enforcement paths replaceable;
 7. expose who can write, read, revise, and delete each record;
 8. allow Exit without erasing obligations owed to the exiting node.
+9. distinguish total possible resources from resources a node can actually
+   reach and use.
+10. prevent infrastructure gateways from converting exploration into enclosure.
 
 ## 9. Failure Modes
 
@@ -142,6 +159,12 @@ rehabilitation.
 
 Calling resources infinite can obscure deprivation and justify withholding
 practical support.
+
+### Gateway capture
+
+New territories or resources may increase nominal abundance while transport,
+energy, communication, or permission remains controlled by a small group.
+Expansion without independent paths can reproduce oligopoly at a larger scale.
 
 ### Automatic truth from persistence
 

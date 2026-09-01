@@ -5,6 +5,14 @@
 N-Zero explores a boundary-aware distinction between **local zero** and claims
 of **global disappearance**.
 
+Its foundational motivation is epistemic:
+
+> The world currently visible to us is all the evidence we presently have, but
+> our present view is not evidence that we have seen all that exists.
+
+N-Zero therefore keeps two commitments together: expand the horizon of possible
+resources and relations, while treating currently reachable resources as finite.
+
 The project began as N-Zero Arithmetic, representing values as local labels with
 an invariant universe component. Review of that formulation found a valuable
 conceptual question but also showed that algebra, physical interpretation, and
@@ -68,7 +76,10 @@ pytest
 - Keep mathematical, physical, and normative claims in separate evidence planes.
 - Treat failed tests and competing interpretations as Revision input.
 - Do not equate a local measurement of zero with universal nonexistence.
-- Do not use global abundance language to dismiss local scarcity.
+- Keep an **Abundance Horizon** without closing the unknown as empty.
+- Keep **Scarcity Discipline** for resources that are currently reachable.
+- Do not let a single launch, transport, energy, or communication gateway turn
+  possible abundance into a new monopoly.
 - Preserve the original v5 paper as lineage rather than rewriting its claims.
 
 ## License

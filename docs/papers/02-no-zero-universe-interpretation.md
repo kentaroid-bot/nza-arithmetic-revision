@@ -32,7 +32,27 @@ This thesis does not claim that every lost object survives unchanged. Transfer,
 conversion, decoherence, dissipation, information loss at a selected level, and
 measurement failure are different possibilities and must not be conflated.
 
-## 2. Three Meanings of Zero
+## 2. Epistemic Horizon
+
+NZUI begins from a distinction between available evidence and total reality:
+
+> The world currently visible to us is all the world we can presently describe
+> from evidence. It does not follow that our current observation contains all
+> that exists.
+
+The unknown is not positive evidence for hidden resources. It is also not
+evidence that the current boundary is final. NZUI holds that boundary open as a
+research question.
+
+This produces two complementary principles:
+
+- **Abundance Horizon:** before declaring a conflict permanently zero-sum,
+  investigate boundary expansion, transformation, recycling, and alternative
+  paths.
+- **Scarcity Discipline:** treat resources within the currently reachable
+  boundary as finite and do not allocate speculative future abundance.
+
+## 3. Three Meanings of Zero
 
 NZUI distinguishes at least three uses:
 
@@ -46,7 +66,7 @@ The first is mathematically indispensable. The second is common and valid. The
 third is a stronger metaphysical claim and cannot be inferred from the first two
 without additional evidence.
 
-## 3. Relation to NZCM
+## 4. Relation to NZCM
 
 The N-Zero Conservation Model supplies vocabulary for boundaries, local states,
 environment accounts, transfers, and unresolved discrepancies. It does not
@@ -56,7 +76,7 @@ NZCM can demonstrate that a modeled transfer preserves a declared quantity.
 NZUI asks whether a similar interpretation is appropriate for a physical domain.
 That question requires domain-specific theory and observation.
 
-## 4. Requirements for a Physical Hypothesis
+## 5. Requirements for a Physical Hypothesis
 
 For NZUI to become testable in a particular domain, a proposal must specify:
 
@@ -71,7 +91,7 @@ For NZUI to become testable in a particular domain, a proposal must specify:
 Writing `infinity_universe` beside a local value satisfies none of these
 requirements by itself.
 
-## 5. Status of Earlier Analogies
+## 6. Status of Earlier Analogies
 
 Earlier NZA texts mentioned thermodynamics, quantum vacuum effects, general
 relativity, quantum mechanics, and many-worlds interpretations. In the absence
@@ -82,7 +102,7 @@ They must not be presented as derivations, confirmations, or applications of
 NZUI. Each topic has distinct definitions of conservation, vacuum, information,
 boundary, and observability.
 
-## 6. Infinity
+## 7. Infinity
 
 NZUI does not require the universe total to be represented by mathematical
 infinity. An infinite constant makes every finite discrepancy invisible:
@@ -94,11 +114,50 @@ infinity + q = infinity
 That identity cannot show where `q` went. A finite domain model with explicit
 reservoirs is more informative whenever measurements permit it.
 
-Whether the physical universe is finite or infinite remains outside the current
-claim. A cyclic universe, an infinite universe, and a finite conserved system
-are separate hypotheses.
+The physical infinity of the universe is an explicit motivating hypothesis, not
+an established premise of the formal model. Call it `H_infinity`:
 
-## 7. Negative Values
+> The total domain of possible matter, energy, space, or transformation is not
+> bounded by the region currently observable or reachable by humanity.
+
+`H_infinity` may motivate exploration, but its truth is not established here.
+A cyclic universe, an infinite universe, and a finite conserved system remain
+separate hypotheses.
+
+## 8. Scarcity, Oligopoly, and Multiplanetary Expansion
+
+Finite accessible resources can motivate enclosure and oligopoly. NZUI explores
+whether expanding the reachable resource graph can reduce that pressure.
+Multiplanetary settlement is one possible strategy:
+
+```text
+new reachable regions
+-> additional resource and habitat nodes
+-> alternative paths and exit possibilities
+-> reduced dependence on a single local stock
+```
+
+An infinite universe would still not guarantee effective abundance. Human
+lifetime, causal reach, transport capacity, energy, knowledge, and institutional
+access remain finite. A small group controlling launch systems, routes,
+communications, or settlement rights could turn cosmic expansion into a new
+gateway monopoly.
+
+The politically relevant quantity is therefore not total cosmic resource but
+effective access:
+
+```text
+effective abundance for a node
+  = reachable resources
+  + independent access paths
+  + conversion capability
+  + protected exit
+```
+
+This expression is conceptual, not a physical equation. It identifies what a
+future operational model would need to measure.
+
+## 9. Negative Values
 
 Negative values may represent direction, orientation, charge convention,
 deficit, or a coordinate relative to a reference. NZUI does not reject them.
@@ -106,7 +165,7 @@ deficit, or a coordinate relative to a reference. NZUI does not reject them.
 The interpretive question is instead whether a negative label has been mistaken
 for negative existence. Domain semantics must decide that issue.
 
-## 8. Falsifiability Boundary
+## 10. Falsifiability Boundary
 
 The minimal interpretive thesis is methodological and cannot be falsified as a
 universal slogan. A domain-specific NZUI hypothesis must be rejectable.
@@ -123,7 +182,7 @@ Examples of failure conditions include:
 An unresolved discrepancy should remain an Open Hold. It is not positive
 evidence for hidden persistence.
 
-## 9. Research Agenda
+## 11. Research Agenda
 
 1. Select one narrow physical or informational domain.
 2. Define its quantities and observational boundary using established notation.
@@ -132,8 +191,12 @@ evidence for hidden persistence.
 5. Derive at least one discriminating prediction or operational advantage.
 6. Invite independent domain review before making cosmological claims.
 7. Publish negative results and abandoned mappings.
+8. Distinguish total resources from resources reachable through independently
+   governed paths.
+9. Model whether multiplanetary expansion reduces capture or merely relocates
+   its chokepoints.
 
-## 10. Interpretive Value
+## 12. Interpretive Value
 
 Even without becoming a physical theory, NZUI can serve as an epistemic warning:
 
