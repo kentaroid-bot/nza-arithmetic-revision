@@ -13,6 +13,15 @@ Its foundational motivation is epistemic:
 N-Zero therefore keeps two commitments together: expand the horizon of possible
 resources and relations, while treating currently reachable resources as finite.
 
+Its foundational Local Zero Axiom is:
+
+> A result of zero within a scoped account is a local state. It is not, by
+> itself, absolute nothingness.
+
+Source, destination, quantity, and evidence are required to establish a specific
+transfer path. They are not prerequisites for refusing to equate local zero with
+ontological annihilation.
+
 The project began as N-Zero Arithmetic, representing values as local labels with
 an invariant universe component. Review of that formulation found a valuable
 conceptual question but also showed that algebra, physical interpretation, and

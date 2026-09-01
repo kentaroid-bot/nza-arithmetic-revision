@@ -113,6 +113,15 @@ x[i] = 0
 This says nothing by itself about `T(x)`, the existence of other nodes, or the
 history that produced the state.
 
+This distinction is the formal counterpart of the N-Zero Local Zero Axiom:
+
+> `x[i] = 0` is a scoped state, not a representation of absolute nothingness.
+
+Naming source, destination, quantity, and evidence is required to accept a
+specific transfer into the operational ledger. Failure to identify a destination
+does not turn local zero into proof of annihilation; it leaves the wider account
+unresolved.
+
 ### 2.6 Provenance ledger
 
 Let `L` be an append-only sequence of proposed, accepted, reversed, or held
@@ -219,6 +228,10 @@ quantity = q
 
 This is an epistemic state, not evidence that the quantity still exists. A Hold
 preserves the unresolved question without deciding it prematurely.
+
+Within the N-Zero research program, this Hold expresses a deliberate asymmetry:
+unknown continuation is not treated as a verified transfer, but neither is lack
+of a verified destination treated as proof of absolute nothingness.
 
 ### Boundary expansion
 

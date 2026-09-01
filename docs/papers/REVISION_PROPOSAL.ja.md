@@ -35,6 +35,20 @@ N-Zero Arithmeticを、完成済みの万能的算術体系として提示する
 この問いは、数学的ゼロの否定としてではなく、観測境界、移動先、履歴、残余を
 明示する要求として再定義する。
 
+N-Zeroは次を**Local Zero Axiom（局所ゼロ公理）**として置く。
+
+> `5 - 5 = 0`は、選択された局所Accountがゼロになったことを示す。
+> それは絶対的な無を示さない。
+
+物理的解釈では、5はその局所関係から離れ、別の状態、場所、変換関係へ参加する。
+現在の観測者がその経路を特定できない場合も、局所ゼロを絶対的消滅の証明には
+しない。
+
+`source`、`destination`、`quantity`、`evidence`は、具体的な移動経路を確定して
+Operational Ledgerへ採用するために要求する。Local Zero Axiomを保持するための
+前提条件ではない。移動先を確認できない場合は、絶対的な無ではなく
+`UNRESOLVED_DESTINATION`としてHoldする。
+
 その背景には、次の人間側の認識がある。
 
 > 今見えている世界が私たちの全てである。しかし、現在の私たちがすべてを
@@ -58,7 +72,7 @@ N-Zero Arithmeticを、完成済みの万能的算術体系として提示する
 | 全ての値に`infinity_universe`を付ける | NodeとEnvironmentの有限な明示状態を使う |
 | `total()`が常に∞なので保存される | 状態遷移前後の総量を計算し、不一致を検出する |
 | ゼロと負数は存在しない | 数学的ゼロと負数を認め、存在論的意味と分離する |
-| 5-5は宇宙の別地点への移動である | 移動を主張するならsource、destination、quantity、evidenceを要求する |
+| 5-5は宇宙の別地点への移動である | Local Zero Axiomとして保持する。具体的な移動先の確定だけはsource、destination、quantity、evidenceを要求する |
 | 物理学へ適用できる | 現時点では類比。個別領域で予測と反証条件が必要 |
 | 無限総量は自動的に豊穣倫理を導く | 宇宙無限性は仮説として保持し、現在のAccessと局所的希少性を別に測る |
 | Pythonテストが理論を検証する | テストは実装と形式Invariantだけを検査する |
@@ -97,6 +111,11 @@ rejected Revision      != impossible future Fork
 ```
 
 この接続はLineage上の解釈として保持し、Protocol要件には自動昇格させない。
+
+ここでいう関係性の無限は、同じEdgeへの永久接続ではない。ある関係が終了しても、
+Node、影響、義務、記録、別の接続可能性まで終端化しないというContinuity
+Postulateである。Exit、Hold、Fork、別Meshへの接続も、関係Topologyを紡ぐ
+変化として含む。
 
 ## 6. 非目標
 

@@ -22,6 +22,14 @@ The research motivation is not that unseen resources may be counted as if they
 were already available. It is that the present observational boundary should not
 be promoted into a final boundary of reality without evidence.
 
+N-Zero adopts a strong interpretive starting point:
+
+> `5 - 5 = 0` is zero in a selected local account, not absolute nothingness.
+
+The formal model does not claim that the arithmetic expression itself identifies
+where the five went. Provenance requirements establish a specific transfer;
+they do not authorize an inference from local zero to ontological annihilation.
+
 ```text
 Abundance Horizon: do not declare the unknown empty or permanently closed.
 Scarcity Discipline: allocate currently reachable resources as finite.
@@ -78,7 +86,8 @@ This suite changes the formal core as follows:
 |---|---|
 | Every value carries a constant infinity component | A state contains explicit local accounts and a declared boundary |
 | `total()` always returns infinity | The total is calculated from the current state |
-| Local subtraction implies relocation | A transfer names source, destination, quantity, and provenance |
+| Local subtraction reaches absolute nothingness | The Local Zero Axiom treats zero as scoped, not ontological annihilation |
+| A specific relocation is known without provenance | An accepted transfer names source, destination, quantity, and evidence |
 | Division by zero returns infinity | Division by zero remains undefined unless a domain-specific extension is declared |
 | Negative values do not exist | Negative coordinates are valid; obligations may instead be represented as directed edges |
 | Tests validate conservation | Property tests attempt to falsify the invariant across transitions |

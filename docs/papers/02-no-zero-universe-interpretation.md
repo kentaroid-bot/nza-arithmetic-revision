@@ -28,6 +28,18 @@ The minimal thesis is:
 > local absence at that resolution, not sufficient evidence of absolute
 > nonexistence across every boundary and representation.
 
+The Human Steward holds this as an absolute foundational conviction of N-Zero:
+
+> `5 - 5 = 0` describes zero in the selected local account. It does not describe
+> absolute nothingness. In a physical interpretation, the five have left that
+> local relation and participate in another state, location, or transformation,
+> even when the present observer cannot identify the path.
+
+NZUI records this as the **Local Zero Axiom**. It is an adopted starting point of
+the interpretation, not a theorem derived from the arithmetic expression alone.
+The expression `5 - 5` contains no source or destination semantics by itself;
+those belong to a concrete physical or ledger model.
+
 This thesis does not claim that every lost object survives unchanged. Transfer,
 conversion, decoherence, dissipation, information loss at a selected level, and
 measurement failure are different possibilities and must not be conflated.
@@ -51,6 +63,17 @@ This produces two complementary principles:
   paths.
 - **Scarcity Discipline:** treat resources within the currently reachable
   boundary as finite and do not allocate speculative future abundance.
+
+### Continuity Postulate
+
+N-Zero further proposes that a local relation ending need not be interpreted as
+the end of all relation. Components, effects, obligations, records, and future
+connection possibilities may continue through a changed topology.
+
+This does not require the same edge to remain connected forever. In a Mesh,
+continuity may take the form of transformation, Exit, Hold, Fork, inheritance,
+or connection to another node. The word `infinite` names the refusal to declare
+one local ending the terminal state of every possible relation.
 
 ## 3. Three Meanings of Zero
 
@@ -90,6 +113,11 @@ For NZUI to become testable in a particular domain, a proposal must specify:
 
 Writing `infinity_universe` beside a local value satisfies none of these
 requirements by itself.
+
+These requirements decide whether a particular destination or transformation
+has been established. They do not decide whether local zero logically entails
+absolute nothingness; the Local Zero Axiom rejects that inference at the
+interpretive level.
 
 ## 6. Status of Earlier Analogies
 

@@ -25,6 +25,10 @@ The central proposal is:
 > A local administrative zero must not be treated as proof that the underlying
 > person, claim, effect, or obligation has ceased to matter.
 
+This is the social counterpart of the Local Zero Axiom. Removal from one account
+or relationship may change the topology without erasing the node, transferred
+effects, unresolved obligations, or future connection possibilities.
+
 Examples include:
 
 - closing a complaint without resolving its cause;
@@ -131,6 +135,10 @@ NZEG and Aperture share a possible structural connection:
 
 This is an interpretive relationship, not proof that N-Zero validates Aperture
 or that Aperture must adopt N-Zero ontology.
+
+The continuity at issue is not forced permanent connection. A harmful edge may
+need to end completely. What continues is the sovereignty of the node, the
+accountability for transferred effects, and the possibility of other relations.
 
 ## 8. Governance Requirements
 
