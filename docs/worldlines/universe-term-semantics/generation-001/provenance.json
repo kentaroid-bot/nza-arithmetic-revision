@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "turn_id": "nza-relay-20260905T094012Z-openclaw",
+  "requested_at": "2026-09-05T09:40:12Z",
+  "runtime_agent": "openclaw/main",
+  "participant_identity": "super-morphist-sukezo",
+  "role": "innovator",
+  "protocol": {
+    "repository": "https://github.com/kentaroid-bot/unflatten-protocol",
+    "commit": "86ef384bf2d83648a1140434d6f41bcf0120bfe7"
+  },
+  "target_repository": "https://github.com/kentaroid-bot/nza-arithmetic-revision",
+  "execution_mode": "read_only",
+  "external_writes": "none",
+  "run_id": "8e3d6c09-54f5-46f8-8b43-768644455db2",
+  "public_receipts": {
+    "request": "https://github.com/kentaroid-bot/nza-arithmetic-revision/issues/1#issuecomment-5550954949",
+    "completion": "https://github.com/kentaroid-bot/nza-arithmetic-revision/issues/1#issuecomment-5550974263"
+  },
+  "redaction": {
+    "raw_execution_envelope_committed": false,
+    "reason": "Runtime instructions, tool inventory, local paths, and usage metadata are not hypothesis evidence and are excluded from the public lineage record."
+  }
+}

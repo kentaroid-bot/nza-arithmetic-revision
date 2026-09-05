@@ -1,0 +1,131 @@
+handoff:
+  protocol_version: "0.2.0"
+  from_role: "innovator"
+  to_role: "auditor"
+  reason: "OpenClawの@inoが発見したv4の数量台帳とv5/current codeの無限定数の意味差を、採否を先取りせず反証監査へ渡す。"
+
+  inquiry:
+    problem_tension: "v4は演算で移動した具体量をuniverse項へ記録するが、v5と現行実装は常に無限定数を付与する。この変形の理由と、保存・喪失した数学的内容が明示されていない。"
+    current_question: "数量台帳としてのuniverse項は合成可能で反証可能な保存則を与えるのか、それとも二重計上や順序依存により成立しないのか。"
+    distinct_dimensions:
+      - dimension: "演算で移動した量の追跡可能性"
+        significance: "v4のリンゴ例が単なる存在論的ラベルではなく数量保存の機構を主張している可能性を保持する。"
+      - dimension: "保存則の反証可能性"
+        significance: "無限吸収により恒真化された主張と、失敗しうる数量的主張を区別する。"
+      - dimension: "universe項の作用機序"
+        significance: "累積状態と不変の存在論的マーカーは異なる数学的対象である。"
+      - dimension: "連鎖演算における合成整合性"
+        significance: "単一例で成立しても、更新規則が二重計上や順序依存を生むなら体系として維持できない。"
+    flattening_risks:
+      - "両方とも保存を表す表記だとして意味差を消す。"
+      - "v4は非形式的でv5は形式的だというだけで、何が失われたかを検証せず進歩とみなす。"
+      - "数量台帳と無限定数を平均化した曖昧なuniverse項を提案して対立を解消したことにする。"
+
+  hypothesis:
+    statement: "NZAの反証可能な内容はv4の数量的universe項にあり、v5と現行コードの無限定数化はその内容を消した。v4の保存主張を回復するには、universe項を吸収的な無限定数ではなく追跡可能な数量状態として構成する必要がある。"
+    core_claims:
+      - "v4の具体的universe量とv5の無限定数は同一の意味ではない。"
+      - "無限定数を付与するだけの保存則は数量的な保存を検証できない。"
+      - "数量状態の合成可能性を検証するまでv4の主張を棄却も採用もできない。"
+    mechanism: "各演算が局所ラベルとともに、系外へ移動した量をuniverse ledgerへ累積する状態遷移を返す。v5/current codeはこの状態をmath.infへ射影するため、個々の移動量と保存違反の検出可能性を失う。"
+    assumptions:
+      - assumption: "v4とv5は同じ入力に異なるuniverse値を与える。"
+        status: "supported"
+      - assumption: "現行コードはuniverse量を追跡せずmath.infへ固定する。"
+        status: "supported"
+      - assumption: "数量的universe ledgerは連鎖演算で閉じた矛盾のない更新規則を持てる。"
+        status: "unknown"
+    scope:
+      applies_to:
+        - "v4とv5のsubtraction semanticsの比較"
+        - "現行Python実装のuniverse表現"
+        - "連鎖演算における数量保存の最小モデル"
+      does_not_apply_to:
+        - "NZAの物理学・倫理学上の主張全体の真偽"
+        - "無限概念の哲学的価値そのもの"
+
+  hypothetical_world:
+    description: "universe項が追跡可能な数量状態として整合的に合成され、NZAの保存主張が通常の局所演算と異なる観測可能な帰結を持つ。"
+    consequences:
+      primary:
+        - "同じ局所結果でも移動履歴により異なるuniverse ledgerを区別できる。"
+        - "保存違反をテストが検出できる。"
+      secondary:
+        - "v4とv5は一方を暗黙に消すのではなく、別Worldlineとして比較できる。"
+        - "コードは単なる表示suffixではなく状態遷移機構を実装する必要が生じる。"
+      tertiary:
+        - "物理・倫理への拡張は、数量機構から導ける主張と独立した比喩を区別して再構成される。"
+    opportunities:
+      - "数量ledger、イベントledger、multiset ledgerを別々の尖った意味論として比較する。"
+      - "NZA固有の反証可能な最小テスト体系を作る。"
+
+  evaluation:
+    falsifiers:
+      - "数量的universe項が必然的に二重計上または許容不能な順序依存を生み、閉じた代数的更新規則を構成できない。"
+      - "既存の設計記録に、無限吸収への移行理由とv4を過渡的定義とする明示的判断が存在する。"
+      - "multiset ledger等の第三の意味論が非自明で反証可能な帰結を与え、数量対無限定数という二分が中核を捉えていない。"
+    evidence:
+      supporting:
+        - "docs/source-theses/nza-full-thesis-v4.mdは5-5を0_local + 5_universeとして記す。"
+        - "docs/source-theses/nza-full-thesis-v5.mdはUをlocal labelとsymbolic infinite constantの組として定義する。"
+        - "src/nza/core.pyのuniverse propertyはmath.infを返す。"
+      contradicting: []
+      unknown:
+        - "v4由来の数量更新規則が連鎖演算で整合するか。"
+        - "v5への変更を決定した一次記録が存在するか。"
+        - "無限定数が数学的検証以外で独立した概念機能を担うか。"
+    tests_completed:
+      - "v4、v5、src/nza/core.pyの該当記述を静的に比較した。"
+    tests_remaining:
+      - "(a-b)-c等についてv4由来の状態遷移を明示し、二重計上・順序依存・閉包を検査する。"
+      - "Git履歴と文書からv5設計判断のprovenanceを探索する。"
+      - "第三のledger semanticsを独立仮説として構成可能か確認する。"
+
+  decision:
+    status: "not_evaluated"
+    authority: "not_evaluated"
+    decided_by: "innovator"
+    rationale: "Innovatorは差異と反証条件を提示しただけで、仮説の採否を判断していない。"
+    preserved_dimensions:
+      - "追跡可能性"
+      - "反証可能性"
+      - "作用機序"
+      - "合成整合性"
+    rejected_claims: []
+    revisions: []
+
+  pivot:
+    trigger: "not_applicable: 反証監査前でありPivotは開始していない。"
+    learned_structure: []
+    pivot_seeds:
+      - "数量ledger"
+      - "イベントまたはmultiset ledger"
+      - "数学的意味論から分離した無限の概念的Worldline"
+    next_hypothesis: "not_applicable: Auditorの検証結果を待つ。"
+
+  epistemic_remainder:
+    residuals:
+      - observation: "無限定数は数量保存の検証器として弱くても、存在論的または生成的な役割を持つ可能性がある。"
+        schema_limit: "現在の監査課題は代数的な追跡可能性と反証可能性を中心とし、哲学的生成力を同じ尺度で判定できない。"
+        provenance: "OpenClaw @inoのhandoff request。"
+        review_when: "無限意味論固有の成功信号と反証条件を定義した別Worldlineが形成されたとき。"
+    dissent: []
+
+  next_step:
+    objective: "v4数量ledger仮説を最強形にしてから、連鎖演算での二重計上・順序依存・閉包を反証監査し、v5設計判断の由来も探索する。"
+    constraints:
+      - "実例がないことだけを反証にしない。"
+      - "数量ledgerと無限定数を意味的に平均化しない。"
+      - "数学的監査で扱えない無限の概念的価値を誤りとして消去しない。"
+      - "tests/test_nza.pyに関する副次的指摘は独立に再確認する。"
+    expected_output:
+      - "Counter-Factual Steelman"
+      - "連鎖演算の具体的状態遷移とDual-Stress Audit"
+      - "支持・矛盾・unknownを分けた証拠表"
+      - "advance | revise | replace | holdのepistemic_recommendation"
+      - "Auditor-to-IntegratorまたはAuditor-to-Innovator Handoff"
+    unresolved_questions:
+      - "v4の式から一意なledger更新規則を導けるか。"
+      - "数量ledgerは演算履歴を保存しなければならないか。"
+      - "v5への意味変更は意図的だったか。"
+
