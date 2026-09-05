@@ -1,0 +1,156 @@
+handoff:
+  protocol_version: "0.2.0"
+  from_role: "auditor"
+  to_role: "integrator"
+  reason: "数量ledger仮説の中核批判は維持できるが、v4のliteral formulaとscalar accumulatorは反証され、既存の第三意味論を含む修復境界について運用判断が必要になった。"
+
+  inquiry:
+    problem_tension: "v4は具体量をuniverse項へ残すが内部に非互換な規則があり、v5/current codeは無限定数によって差分を吸収する。局所ゼロと全体消滅の差を、反証可能かつ合成可能な機構としてどう保存するか。"
+    current_question: "scalar universe accumulatorを棄却し、finite boundary state・event provenance・独立したinfinity interpretationへ分離する修復を次工程へ接続するか。"
+    distinct_dimensions:
+      - dimension: "演算で移動した量の追跡可能性"
+        significance: "局所ゼロから全体消滅を推論しないという原問を、具体的な状態と履歴へ接続する。"
+      - dimension: "保存則の反証可能性"
+        significance: "不一致が無限へ吸収されず観測できる必要がある。"
+      - dimension: "balanceとhistoryの非同一性"
+        significance: "同じ残高へ至る異なる移動経路を消去しない。"
+      - dimension: "形式ledgerとinfinity interpretationの非通約性"
+        significance: "数学的検証の弱さを理由に、無限が持つ生成的・存在論的動機まで棄却しない。"
+    flattening_risks:
+      - "v4とv5をどちらも保存表現として平均化する。"
+      - "v4の内部矛盾を理由にlocal zeroとglobal disappearanceの区別まで捨てる。"
+      - "ledgerを一般的会計と呼ぶだけでNZA固有の問いとの生成関係を消す。"
+      - "無限をledgerへ戻して形式と解釈の緊張を見えなくする。"
+
+  hypothesis:
+    statement: "NZAの検証可能な核は、局所ゼロと全体消滅を分離し、名前付き境界内のfinite stateとprovenance-bearing eventから保存差分を計算する機構にある。infinityは自動的なbalancing constantではなく、独立した解釈仮説として保持する。"
+    core_claims:
+      - "局所値ゼロは、宣言された広い境界での消滅を単独では証明しない。"
+      - "保存は状態から計算され、不一致を返せなければならない。"
+      - "移動の事実はsubtraction syntaxから推論せず、source・destination・quantity・provenanceを必要とする。"
+      - "形式ledgerとinfinity interpretationを一つの曖昧なuniverse項へ再結合しない。"
+    mechanism: "有限のnamed nodesまたはscopesにbalanceを置き、transfer eventがsourceからquantityを減らしdestinationへ加える。totalとdiscrepancyを状態から計算し、履歴はappend-only provenanceとして別に保持する。未確認の移動先はinfinityで埋めずHoldする。"
+    assumptions:
+      - assumption: "v4、v5、current codeはuniverse項に異なる意味を与える。"
+        status: "supported"
+      - assumption: "v5/current codeのinfinity absorptionは有限差分を検出できない。"
+        status: "supported"
+      - assumption: "finite boundary ledgerは内部transferについて閉じた保存遷移を定義できる。"
+        status: "supported"
+      - assumption: "既存paper-suite案がHuman Stewardの意図する次期NZAである。"
+        status: "unknown"
+    scope:
+      applies_to:
+        - "保存または移動を主張する有限の宣言済みモデル境界"
+        - "v4有限表記の形式的再構成"
+        - "現行infinity implementationの検証可能性評価"
+      does_not_apply_to:
+        - "通常の算術を全面的に置換すること"
+        - "宇宙が有限か無限かの決定"
+        - "物理・倫理主張の自動導出"
+
+  hypothetical_world:
+    description: "NZAが通常算術、境界付き保存ledger、無限解釈の三層を混同せず、ledgerでは差分が失敗可能で、解釈Worldlineでは独自の生成的価値と反証境界が育つ。"
+    consequences:
+      primary:
+        - "unbalanced transitionがnonzero discrepancyとして観測される。"
+        - "同じbalanceを持つ異なるhistoryが区別される。"
+      secondary:
+        - "v4のfinite origin notationが形式モデルへ接続される。"
+        - "v5はHistorical Prototypeまたは独立infinity Worldlineとして保存できる。"
+      tertiary:
+        - "物理・倫理への展開は、形式上の証拠と解釈上の動機を別のEvidence Planeで評価できる。"
+    opportunities:
+      - "origin/codex/n-zero-paper-suiteのNZCM/NZUI分離を明示的Worldlineとして審査する。"
+      - "domain-specificなtransfer modelでNZA固有の観測可能な差を探索する。"
+
+  evaluation:
+    falsifiers:
+      - "named-node ledgerでもlocal zeroとglobal disappearanceの区別を表現できない。"
+      - "discrepancy計算が定義上常にゼロとなり、不正なtransitionを検出できない。"
+      - "形式ledgerとinfinity interpretationを分離すると原問の生成関係が失われる。"
+    evidence:
+      supporting:
+        - "v5とsrc/nza/core.pyはinfinityを状態に依存せず固定し、有限差分を吸収する。"
+        - "origin/codex/n-zero-paper-suiteの3f74ee5はfinite nodes、environment、transfer、computed total、discrepancy、provenanceを定義する。"
+        - "finite internal transferではsourceからqを減らしdestinationへqを加えるためtotalが保存され、unbalanced mutationは差分として表せる。"
+      contradicting:
+        - "v4のintro examples、Axiom 2、piecewise formulaは同じ入力のuniverse値について一致しない。"
+        - "sum(a+b) accumulatorは(a-b)-cとa-(b+c)で一般に異なるincrementを返す。"
+        - "scalar accumulatorはsource、destination、provenanceを保持しない。"
+      unknown:
+        - "paper-suite三層分離を採用するか。"
+        - "特定domainで既存会計モデルを越えるNZA固有の予測または運用価値が生じるか。"
+        - "infinity interpretationの独立success signalとfalsifier。"
+    tests_completed:
+      - "v4内の3規則を5-5と3-5へ代入して非整合を確認した。"
+      - "sum(a+b)を(a-b)-cとa-(b+c)へ適用しgrouping dependenceを導出した。"
+      - "Git履歴とorigin/codex/n-zero-paper-suiteを探索し第三意味論を確認した。"
+      - "python3 -m pytest -qを実行しtests/test_nza.py:2のIndentationErrorを確認した。"
+    tests_remaining:
+      - "Human StewardによるMotive Packetと三層分離の対応確認。"
+      - "paper-suite案を独立PRとして差分監査する。"
+      - "test baseline修復後にcurrent implementationの欠落methodと意味テストを再実行する。"
+
+  decision:
+    status: "revise"
+    authority: "epistemic_recommendation"
+    decided_by: "auditor"
+    rationale: "constant infinityが保存検証器でないという中核批判は支持された。一方v4は単一の演算を定義せずsum(a+b) scalar mechanismもgrouping dependenceとprovenance lossで反証された。既存のboundary-aware第三意味論はDistinct Dimensionsを維持した修復を与えるため、仮説全体のreplaceではなくmechanismのreviseを推奨する。"
+    preserved_dimensions:
+      - "local zeroとglobal disappearanceの区別"
+      - "数量追跡"
+      - "反証可能性"
+      - "履歴の保存"
+      - "infinity motiveの独立生存"
+    rejected_claims:
+      - "v4がそのまま一意で閉じたledger operationを定義する。"
+      - "_universe = sum(a+b)が十分な保存機構である。"
+      - "quantity ledger対infinity constantの二択が探索空間を尽くす。"
+    revisions:
+      - "scalar accumulatorをfinite named-node stateとevent provenanceへ置換する。"
+      - "balance equalityとhistory equalityを分離する。"
+      - "infinityをoperational balancing termから独立interpretive Worldlineへ移す。"
+      - "ledger適用範囲をconservation/transfer claimがあるdomainへ限定する。"
+
+  pivot:
+    trigger: "not_applicable: 中核を保持したreviseでありreplaceではない。"
+    learned_structure:
+      - "順序依存はalgebraic valueには欠陥だがevent historyには保存対象である。"
+      - "局所ゼロの有限表記と無限の動機は同一フィールドに格納する必要がない。"
+      - "現行Git branchに修復候補が既に存在するが、未マージで運用判断はまだない。"
+    pivot_seeds:
+      - "boundary-aware conservation ledger"
+      - "independent infinity interpretation Worldline"
+      - "domain-specific falsifiable NZA model"
+    next_hypothesis: "not_applicable: reviseされたhypothesis欄に現在の仮説を記載した。"
+
+  epistemic_remainder:
+    residuals:
+      - observation: "無限はoperational conservation testとして機能しなくても、局所的終端を全存在の終端とみなさない生成的姿勢を保持する可能性がある。"
+        schema_limit: "finite ledgerの正誤基準では存在論的・生成的価値を測定できない。"
+        provenance: "v4/v5のinfinity motiveとOpenClaw @ino handoff。"
+        review_when: "infinity interpretation固有の問い、作用機序、success signal、falsifierが形成されたとき。"
+    dissent:
+      - position: "v4の5_universeは観測済みtransferではなくHuman StewardのLocal Zero Axiomとして先に保持されるべきである。"
+        holder: "paper-suite branchに記録されたHuman Steward position"
+        unresolved_because: "operational ledgerのevidence requirementとinterpretive axiomの権限が異なり、一方へ統合できない。"
+
+  next_step:
+    objective: "系譜記録PR #4の統合可否と、既存paper-suite branch・test baseline・独立infinity Worldlineをどの順序と範囲で接続するかを決定する。"
+    constraints:
+      - "監査済みであることを実装済みまたは物理仮説成立とみなさない。"
+      - "v4/v5原資料を上書きしない。"
+      - "paper-suite branchを既決定事項としてmainへ統合しない。"
+      - "infinity motiveをfinite ledgerの失敗した数値項へ戻さない。"
+      - "壊れたtest baselineを意味論の支持証拠に使用しない。"
+    expected_output:
+      - "advance | revise | replace | holdのoperational_decision"
+      - "PR #4のmergeまたは修正条件"
+      - "paper-suite branchを審査する場合の明示的scope"
+      - "Engineerまたは別roleへの完全なHandoff"
+    unresolved_questions:
+      - "系譜記録だけを先にmainへ入れるか。"
+      - "test baseline修復を意味論実装より先行させるか。"
+      - "paper-suiteを一つのPRにするかEvidence Planeごとに分けるか。"
+      - "infinity interpretationを同一repoのWorldlineとして育てるか別repoへspin outするか。"
