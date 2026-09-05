@@ -1,7 +1,7 @@
 # N-Zero Arithmetic (NZA)
 
 [![PyPI version](https://badge.fury.io/py/nza-arithmetic.svg)](https://badge.fury.io/py/nza-arithmetic)
-[![Tests](https://github.com/super-morphist-sukezo/nza-arithmetic/actions/workflows/tests.yml/badge.svg)](https://github.com/super-morphist-sukezo/nza-arithmetic/actions)
+[![Tests](https://github.com/kentaroid-bot/nza-arithmetic-revision/actions/workflows/tests.yml/badge.svg)](https://github.com/kentaroid-bot/nza-arithmetic-revision/actions)
 
 Rigorous mathematical framework for the \&quot;No-Zero Universe\&quot; interpretation. Distinguishes *local labels* (including 0_local, negatives) from invariant infinite *universe total* (∞).
 
@@ -35,16 +35,27 @@ print(NZA(5) - NZA(5))  # 0.0_local + ∞_universe  (no annihilation!)
 
 ## Theory
 
-See the [full thesis](https://github.com/super-morphist-sukezo/nza-arithmetic/blob/main/docs/nza-full-thesis-v4_super-morphist-sukezo.md) for axioms, proofs, Morphidism integration.
+The imported source theses are preserved for comparison:
+
+- [Version 4](docs/source-theses/nza-full-thesis-v4.md)
+- [Version 5](docs/source-theses/nza-full-thesis-v5.md)
 
 ## Development
 
 ```bash
-git clone https://github.com/super-morphist-sukezo/nza-arithmetic
-cd nza-arithmetic
+git clone https://github.com/kentaroid-bot/nza-arithmetic-revision
+cd nza-arithmetic-revision
 pip install -e .[dev]
 pytest
 ```
+
+## Collaboration
+
+This repository is jointly developed by `kentaroid-bot` and `super-morphist-sukezo` using the [Unflatten Protocol](https://github.com/kentaroid-bot/unflatten-protocol).
+
+Hypotheses are developed in separate Worldline branches and reviewed through Innovator, Auditor, Integrator, and Engineer roles. Conflicting hypotheses do not need to be averaged into a compromise; they may remain as explicit, testable alternatives.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the collaboration workflow, Pull Request requirements, source-document policy, and merge rules.
 
 ## License
 
