@@ -3,6 +3,8 @@
 This worldline preserves a disagreement discovered while comparing the NZA v4
 and v5 source theses with the current Python implementation. It is a record of
 an unevaluated `@ino` move, not a decision that either semantics is correct.
+The public audit discussion continues in
+[Issue #3](https://github.com/kentaroid-bot/nza-arithmetic-revision/issues/3).
 
 ## Motive Packet
 
@@ -47,4 +49,3 @@ The raw OpenClaw execution envelope is intentionally not committed. It contains
 runtime instructions and incidental local metadata that are not evidence for
 the hypothesis. The preserved artifact contains the user-visible analysis and
 minimal provenance needed to reproduce the handoff.
-
